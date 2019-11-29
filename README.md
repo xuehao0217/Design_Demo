@@ -1,4 +1,4 @@
-BottomSheets
+BottomSheets 和CoordinatorLayout
 =======================
 
 Android Support Library 23.2里的 Design Support Library新加了一个Bottom Sheets控件，一个底部表，就是我们经常在分享或者地图、音乐等app看到的效果
