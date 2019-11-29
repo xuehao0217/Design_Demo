@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xueh.design">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bottomsheet.BottomSheetActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bottomsheet.RecyclerViewActivity" />
+        <activity android:name=".bottomsheet.NestedScrollViewActivity" />
+        <activity android:name=".bottomsheet.BottomSheetDialogActivity" />
+        <activity android:name=".bottomsheet.BeautifulBottomSheetActivity" />
+
+
+
+        <activity
+            android:name=".coordinatorlayout.activity.JianShuActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".coordinatorlayout.activity.HideToolBarActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".coordinatorlayout.activity.CoordinatorLayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".coordinatorlayout.activity.HeaderViewPagerActivty"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
